@@ -10,8 +10,8 @@ project "SFML"
 
 	filter "configurations:*"
 		defines { "SFML_STATIC" }
-		includedirs { "dependencies/SFML/include" }
-		libdirs { "dependencies/SFML/lib" }
+		includedirs { "include" }
+		libdirs { "lib" }
 		links
 		{
 			"opengl32",
